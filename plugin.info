@@ -1,0 +1,9 @@
+{
+	"title": "$:/plugins/welford/twmousetrap",
+	"description": "global shortcuts",
+	"author": "James W. Anderson",
+	"version": "0.0.1",
+	"core-version": ">=5.0.0",
+	"source": "https://github.com/Welford/twmoustrap",
+    "plugin-type": "plugin"
+}
