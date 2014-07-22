@@ -26,7 +26,10 @@ exports.startup = function() {
 	);
 	$tw.Mousetrap.bind("/",
 		function() {
-			if(document.getElementById("topsearch")){document.getElementById("topsearch").focus();}
+			if(document.getElementById("topsearch")){
+				document.getElementById("topsearch").focus();
+				document.getElementById("topsearch").select();
+			}
 		},
 		"keyup"
 	);
