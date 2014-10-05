@@ -15,8 +15,8 @@ registers a sample keypress thingy
 exports.name = "twmousetrapexample";
 exports.platforms = ["browser"];
 exports.after = ["twmousetrap"];
+exports.before = ["startup"];
 exports.synchronous = true;
-
 
 exports.startup = function() {
 	$tw.Mousetrap.bind("ctrl+shift+x",
